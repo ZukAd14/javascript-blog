@@ -105,6 +105,7 @@ body {
   display: none;
   &.active {
     display: block;
+    font-weight: bold;
   }
 }
 
