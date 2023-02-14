@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,600|Sacramento|Source+Sans+Pro:300&subset=latin-ext');
 
-// Variables 
+// Variables
 
 $color-light: #fff;
 $color-dark: #444;
@@ -9,7 +9,7 @@ $font-logo: 'Sacramento', cursive;
 $font-header: 'Oswald', sans-serif;
 $font-text: 'Source Sans Pro', sans-serif;
 
-// Global 
+// Global
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -34,6 +34,7 @@ body {
   text-transform: uppercase;
   font-family: $font-header;
   font-weight: 600;
+
   span {
     text-transform: none;
     font-weight: 400;
@@ -41,7 +42,7 @@ body {
   }
 }
 
-// Layout 
+// Layout
 
 .wrapper {
   display: flex;
@@ -64,7 +65,7 @@ body {
   border-radius: 5px;
 }
 
-// Logo 
+// Logo
 
 .logo {
   font-family: $font-logo;
@@ -74,12 +75,13 @@ body {
   text-align: center;
 }
 
-// Lists 
+// Lists
 
 .list {
   list-style-type: none;
   margin: 0;
   padding: 0;
+
   .active {
     font-weight: bold;
   }
@@ -91,7 +93,7 @@ body {
   }
 }
 
-// Authors 
+// Authors
 
 .authors {
   li {
@@ -99,10 +101,11 @@ body {
   }
 }
 
-// Post 
+// Post
 
 .post {
   display: none;
+
   &.active {
     display: block;
     font-weight: bold;
@@ -115,6 +118,7 @@ body {
 
 .post-tags {
   display: flex;
+
   p {
     margin: 0 10px 0 0;
   }
