@@ -13,13 +13,13 @@
     
         /* [DONE] remove class 'active' from all article links  */
 
-        const activeLinks = document.querySelectorAll('.titles a.active');
+        const activeLinks = document.querySelectorAll('.titles a');
         console.log('links:', activeLinks);
 
         for(let activeLink of activeLinks){
         activeLink.classList.remove('active');
         }
-        /*[DONE?] add class 'active' to the clicked link */
+        /*[DONE! :)] add class 'active' to the clicked link */
 
         clickedElement.classList.add('active');
 
@@ -27,7 +27,7 @@
 
         /* [DONE] remove class 'active' from all articles */
 
-        const activeArticles = document.querySelectorAll('.active');
+        const activeArticles = document.querySelectorAll('.post .active');
 
         for(let activeArticle of activeArticles){
         activeArticle.classList.remove('active');
@@ -106,7 +106,6 @@
   for(let link of links){
     link.addEventListener('click', titleClickHandler);
     }  
-
 
 
 
